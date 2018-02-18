@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Soru Çizelgesi</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="ekle">Ekle</string>
+    <string name="tarih">Tarih</string>
+    <string name="paylas">Paylaş</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="versiyon">Versiyon 1.0</string>
+    <string name="uygulama_bilgisi">Uygulamayı İndiridiğiniz için Teşekkürler. Öneri ve Görüşlerinizi Aşağıdaki Mail Adresine Gönderebilirsiniz.</string>
+    <string name="mail">m.alicolaker@gmail.com</string>
+    <string name="kodlayan">Kodlayıcı</string>
+    <string name="by">Muhammed Ali ÇOLAKER</string>
+    <string name="iptal">İptal</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="tamam">TAMAM</string>
+    <string name="enterSoru">Soru Sayısını Girin</string>
+    <string name="duzenle_menu">Düzenle</string>
+    <string name="sil_menu">Sil</string>
+    <string name="ilk_tarih">İlk tarihi seçiniz...</string>
+    <string name="son_tarih">Son tarihi seçiniz...</string>
+    <string name="tumunu_sil">Tüm Kayıtları Sil</string>
+    <string name="kayıt_yok">Herhangi Bir Kayıt Bulunamadı.</string>
+    <string name="parola_ayarları">Parola Ayarları</string>
+    <string name="parola_olustur">Parola Oluştur</string>
+    <string name="olustur">Parola Oluştur</string>
+    <string name="parolayi_degistir">Parolayı Değiştir</string>
+    <string name="parolayi_kaldir">Parolayı Kaldır</string>
+    <string name="tum_kayitlari_sil">Tüm kayıtları silmek istediğinizden emin misiniz?</string>
+    <string name="tum_kayitlar_silindi">Tüm Kayıtlar Silindi</string>
+    <string name="sil"> SİL </string>
+    <string name="iptalB"> İPTAL </string>
+    <string name="kayit_ekle">Kayıt Ekle</string>
+    <string name="kayit_duzenleme">Kayıt Düzenleme</string>
+    <string name="kayit_guncel">Kayıt Güncellendi</string>
+    <string name="hata_olustu">Hata Oluştu</string>
+    <string name="soru_eklendi">Soru Sayısı Eklendi</string>
+    <string name="soru_girin">Soru Sayısını Girin</string>
+    <string name="ikitarih">İki Tarih Arası</string>
+    <string name="parola_olusturuldu">Parola Oluşturuldu</string>
+    <string name="parola_kaldirildi">Parola Kaldırıldı</string>
+    <string name="parola_degistirildi">Parola Değiştirildi</string>
+    <string name="eski_parola">Eski Parola</string>
+    <string name="yeni_parola">Yeni Parola</string>
+    <string name="yeni_parola_tekrar">Yeni Parola Tekrar</string>
+    <string name="parolanizi_girin">Parolanızı Girin</string>
+    <string name="parola_olus">Parola oluşturmak istediğinizden emin misiniz?</string>
+    <string-array name="derslistesi">
+        <item>Matematik</item>
+        <item>Türkçe</item>
+        <item>Sosyal</item>
+        <item>Fizik</item>
+        <item>Kimya</item>
+        <item>Biyoloji</item>
+    </string-array>
+    <string-array name="yaziboyutu">
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Çok Büyük</item>
+    </string-array>
+    <string-array name="yaziboyutuindisi">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="yazitipi">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>İtalic</item>
+    </string-array>
+    <string-array name="yazitipiindisi">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

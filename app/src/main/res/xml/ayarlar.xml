@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="arkaplan">
+    <PreferenceCategory
+        android:icon="@drawable/ic_ayarlar"
+        android:key="general"
+        android:summary="Genel Ayarlar"
+        android:title="Genel Ayarlar">
+
+        <EditTextPreference
+            android:icon="@drawable/ic_border"
+            android:inputType="number"
+            android:key="hedef"
+            android:title="Hedef Soru Sayısı" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_stilayarlari"
+        android:key="other"
+        android:summary="Stil Ayarları"
+        android:title="Stil Ayarları">
+
+        <SwitchPreference
+            android:icon="@drawable/ic_stilayarlari"
+            android:key="gece_modu"
+            android:summary="Koyu Tema"
+            android:title="Gece Teması"
+            android:visibility="gone" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/yaziboyutu"
+            android:entryValues="@array/yaziboyutuindisi"
+            android:icon="@drawable/ic_format_size"
+            android:key="yazi_boyutu"
+            android:summary="Yazılar için tercih edilen yazı boyutu"
+            android:title="Yazı Boyutu" />
+        <!--
+        <ListPreference
+            android:entries="@array/yazitipi"
+            android:entryValues="@array/yazitipiindisi"
+            android:icon="@drawable/ic_font_download"
+            android:key="yazi_tipi"
+            android:summary="Yazılar için tercih edilen yazı tipi"
+            android:title="Yazı Tipi" />
+-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

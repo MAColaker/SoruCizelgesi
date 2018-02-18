@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tr.com.alicolalaker.sorucizelgesi.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="6"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/ekle"
+        android:icon="@drawable/ic_add_beyaz"
+        android:orderInCategory="0"
+        android:title="@string/ekle"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/tarih"
+        android:orderInCategory="1"
+        android:title="@string/tarih"
+        android:icon="@drawable/ic_event_beyaz"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/paylas"
+        android:orderInCategory="4"
+        android:title="@string/paylas"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/hakkinda"
+        android:orderInCategory="7"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/hakkinda"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/tum_veriyi_sil"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_delete_beyaz"
+        android:title="@string/tumunu_sil"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/sifrex"
+        android:orderInCategory="5"
+        android:title="Şifre Oluştur"
+        app:showAsAction="ifRoom|withText" />
+</menu>

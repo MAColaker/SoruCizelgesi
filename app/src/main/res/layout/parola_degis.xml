@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+
+    <EditText
+        android:id="@+id/parola_eski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/eski_parola"
+        android:inputType="numberPassword"
+        android:maxLength="4" />
+
+
+    <EditText
+        android:id="@+id/parola_yeni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/yeni_parola"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/parola_yeni_tekrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/yeni_parola_tekrar"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:visibility="gone" />
+
+</LinearLayout>
